@@ -131,7 +131,7 @@ function endQuiz() {
     }
   });
 
-  resultEl.innerHTML = `<h2>Your Score: ${score}/${questions.length}</h2>`;
+  resultEl.innerHTML = `<h2>Your Score: ${score * 2}/${questions.length * 2} </h2>`;
 
  if (wrongAnswers.length > 0) {
   resultEl.innerHTML += "<h3>Questions you missed:</h3>";
