@@ -26,7 +26,7 @@ const questions = [
   { question: "Which tag makes a link?", options: ["<a>", "<link>", "<button>", "<href>"], answer: "<a>" },
   { question: "What does the href attribute do in a link?", options: ["Tells the link where to go", "Adds color to the link", "Makes text bold", "Shows an image"], answer: "Tells the link where to go" },
   { question: "Which of these is a self-closing tag?", options: ["<h1>", "<p>", "<img>", "<div>"], answer: "<img>" },
-  { question: "Which tag is used to collect information from users?", options: ["<input>", "<form>", "<data>", "<label>"], answer: "<form>" },
+  { question: "Which tag is used to collect information from users?", options: ["<table>", "<form>", "<data>", "<label>"], answer: "<form>" },
   { question: "The <label> tag is used to:", options: ["Name or describe an input box", "Create a paragraph", "Insert an image", "Make text italic"], answer: "Name or describe an input box" },
   { question: "Which of these creates a bulleted list?", options: ["<ol>", "<li>", "<ul>", "<list>"], answer: "<ul>" },
   { question: "Which of these creates a numbered list?", options: ["<ul>", "<ol>", "<num>", "<list>"], answer: "<ol>" },
