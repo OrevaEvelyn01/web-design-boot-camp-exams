@@ -151,7 +151,7 @@ function endQuiz() {
   });
 }
 
-  resultEl.innerHTML += `<button onclick="location.reload()">Restart Quiz</button>`;
+  resultEl.innerHTML += `<button onclick="location.reload()">Restart Exam</button>`;
   resultEl.style.display = "block";
 }
 
